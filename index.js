@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 const WS_PROVIDER = 'wss://ws.test.azero.dev'; // Update with your Substrate node's WebSocket endpoint
-const PRIVATE_KEY = '0x1b9ce46c7851be81afa4c0f6a63b97028dbb94ecfd1e121a4c0c5b95b1706b0b';
+const PRIVATE_KEY = 'YOURPVTKEY';
 const CONTRACT_ADDRESS = '5C7mVyTvQFPFaBCg59fQ688ijzft2TtpeuaZQYycH3NzkMX2'; // Replace with your actual contract address
 let accounttxn
 const metadata={
