@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Ink NFT Mint API is a Flask-based application that allows users to mint NFTs (Non-Fungible Tokens) related to ink artwork. This API provides a simple and secure way for users to create and manage their unique digital assets on the blockchain.
+The Ink NFT Mint API is a Flask-based application that allows users to mint NFTs (Non-Fungible Tokens) related to ink artwork. This API provides a simple and secure way for users to create and manage their unique digital assets on the  ALEPH BLOCKCHAIN .
 
 ## Features
 
