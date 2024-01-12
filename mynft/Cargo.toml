@@ -1,0 +1,32 @@
+[package]
+name = "my_nft"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ink_lang = "3.0.0"
+ink_env = "0.13.0"
+
+[features]
+ink_env = ["ink_env"]
+
+[lib]
+path = "lib.rs"
+
+[workspace]
+members = [
+    "my_nft",
+]
+
+[profile.dev]
+opt-level = 3
+debug = true
+overflow-checks = false
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+overflow-checks = false
